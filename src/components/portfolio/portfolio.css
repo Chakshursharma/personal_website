@@ -1,0 +1,64 @@
+#Projects{
+    color: white;
+    background-color: #0e2a21;
+}
+.portfolio-container >h1{
+    letter-spacing: 1px;
+    font-size: 4em;
+    margin-top: 0em;
+    padding-top: 0.7em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.porfolio-list{
+    display: flex;
+    text-align: center;
+}
+.porfolio-list > article{
+    float: left;
+    width: 40%;
+    height: auto;
+    padding: 25px 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    border: 4px solid #FFD700;
+
+}
+.porfolio-list > article:hover{
+    border-radius: 10px;
+    border: 4px solid #FFD700;
+    background: #FFD700;
+    color: #0e2a21;
+
+}
+.porfolio-list > article > h3{
+    text-align: center;
+    font-size: 2.5em;
+}
+.portfolio-img{
+    width: 60%;
+    height: auto;
+}
+.port-btn{
+    transform: translateX(130%);
+    font-size: 1.7rem;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: block;
+    text-decoration: none;
+    justify-content: center;
+    width: max-content;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 3px solid #FFD700;
+    background: inherit;
+}
+.port-btn:hover {
+    background: #0e2a21;
+    color: white;
+    border-color: #0e2a21;
+}
