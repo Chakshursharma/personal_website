@@ -36,8 +36,11 @@ function Header() {
             Chakshu Sharma
         </h2>
         <h3>
-          I'm a <span className='span-text'>Computer Science Student</span>
+          I'm a <span className='span-text'>   Computer Science Student</span>
         </h3>
+        {/* <h3>
+        <span className='span-text'> </span>
+        </h3> */}
         <div>
           <a href={Resume} className='btn'>Download Resume</a>
         </div>
