@@ -42,7 +42,7 @@ function Header() {
           <a href={Resume} download className='btn'>Download Resume</a>
         </div>
         </div>
-        <div>
+        <div className='image-container'>
           <img src={Img} className='img' alt='img'></img>
         </div>
     </div>
