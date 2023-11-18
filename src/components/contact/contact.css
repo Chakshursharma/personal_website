@@ -1,8 +1,9 @@
-.footer{
+.footer1{
     background-color: #0e142a;
-    height: 35vh;
+    height: auto;
+    margin-bottom: 0;
 }
-footer > h1{
+.footer1 > h1{
     letter-spacing: 1px;
     font-size: 4em;
     margin-top: 0em;
@@ -17,7 +18,8 @@ footer > h1{
 .contact-link > a{
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .contact-link > a:visited{
     color: white;

@@ -8,7 +8,7 @@ import {BsFillEnvelopeAtFill} from 'react-icons/bs'
 function Contact() {
   return (
     <>
-    <footer className='footer'>
+    <footer className='footer1'>
         <h1>Contact Me</h1>
         <div className='contact-link'>
             <a href="https://www.linkedin.com/in/chakshursharma/" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>

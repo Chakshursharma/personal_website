@@ -8,7 +8,6 @@ function about() {
     <>
     <div className='about-container' id='About'>
     <h1>About Me!</h1>
-    <br />
     <div className='abt-text'>
     I'm a fourth-year computer science student at Bangalore Institute of Technology, skilled in Java, C, and Python. I'm also a dedicated badminton player, creative photographer, and enthusiastic traveler who enjoys experiencing and learning about new cultures.
     </div>

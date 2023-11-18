@@ -2,36 +2,31 @@
         /* border-radius: 25px; */
         /* border: 2px solid #73AD21; */
         background: #0e142a;
-        padding: 30px;
-        width: auto;
-        height: auto;
         margin: 0;
       
 }
-.about-container{
-    height: max-content;
-    margin: 0;
-}
 .about-container > h1{
+    padding: 20px;
     text-align: center;
     letter-spacing: 1px;
-    margin-top: 0.3em;
     font-size: 3em;
     color: #FFD700;
 }
 .abt-text{
-    text-align: center;
+    text-align: justify;
     font-size: 2rem;
-    width: 70%;
+    justify-content: center;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
-    line-height: 2em;
+    line-height: 1.7em;
 }
 .abt-box{
     display: flex;
     margin-top: 2em;
 }
 .abt-box >article{
+    width: 60%;
     border-radius: 25px;
     border: 4px solid #FFD700;
     text-align: center;
@@ -50,11 +45,11 @@
     margin-bottom: 0.5em;
 }
 #logo-txt-main{
+    justify-content: center;
     font-size: 1.5em;
     line-height: 2.5rem;
     margin-top: 0;
     margin-bottom: 1em;
-    width: 20em;
     align-items: center;
 }
 .abt-box >article:hover{

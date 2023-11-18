@@ -1,13 +1,12 @@
 nav{
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
     width: auto;
-    margin-left: 35%;
 }
 .nav-links{
+    margin-top: 0.5vh;
     display: inline-flex;
-    font-size: 2em;
-    margin-left: auto;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-left: 32%;
     margin-right: auto;
     padding: auto;
 }
@@ -21,15 +20,39 @@ nav{
 .nav-links > div > a:visited{
     color: inherit;   
 }
-/* .nav-links > div > a:hover{
-    color: black;
-    background: white;
-    border: white 1px solid;  
-    border-radius: 15px; 
-} */
+.main-container{
+    display: flex;
+    width: inherit;
+}
+.text{
+    float: left;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 2rem;
+    height: fit-content;
+}
+.text > h2{
+    font-size: 1.5em;
+}
+.span-text{
+    padding: 5px;
+    font-size: 3rem;
+    color: #FFD700;
+}
+.img{
+    float: right;
+    margin-right: -25%;
+    width: 26rem;
+    overflow:hidden;
+    margin-top: 10vh;
+    border:  white 6px solid;
+    margin-bottom: 3vh;
+}
 .btn{
     font-size: 1.7rem;
-    margin-top: 100px;
+    margin-top: 70px;
     display: block;
     text-decoration: none;
     justify-content: center;
@@ -40,57 +63,7 @@ nav{
     cursor: pointer;
     border: 3px solid #FFD700;
     background: inherit;
-    /* background: linear-gradient(to left, #136a8a, #267871); */
 }
-.btn:hover {
-    background: #FFD700;
-    color: black;
-    border-color: #FFD700;
-}
-.bg{
-    position: absolute;
-    width:99.5%;
-    height: 100%;
-    z-index: -1;
-    /* top: 12%; */
-    opacity: 0.3;
-}
-.main-container{
-    display: flex;
-    margin-bottom: 10vh;
-    height: max-content;
-}
-.text{
-    float: left;
-    line-height: 40px;
-    text-align: left;
-    margin-top: 3%;
-    margin-left: 5%;
-    font-size: 3rem;
-}
-.span-text{
-    padding-left: 15px;
-    font-size: 4rem;
-    color: #FFD700;
-    animation: text duration timing-function delay iteration-count direction fill-mode;
-}
-.hline{
-    border: 1px solid #FFD700;
-}
-.img{
-    width: 32rem;
-    height: auto;
-    float: right;
-    left: 5%;
-    transform: translateX(30%);
-    margin-top: 10vh;
-    overflow:hidden;
-    /* border-radius: 25px; */
-    border:  white 6px solid;
-}
-.text > h2{
-    font-size: 1.5em;
-}
-.image-container{
-    display: flex;
+.btn:hover{
+    background-color: #FFD700;
 }
