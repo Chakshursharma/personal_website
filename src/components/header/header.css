@@ -42,8 +42,7 @@ nav{
     color: #FFD700;
 }
 .img{
-    float: right;
-    margin-right: -25%;
+    margin-left: 20%;
     width: 26rem;
     overflow:hidden;
     margin-top: 10vh;
