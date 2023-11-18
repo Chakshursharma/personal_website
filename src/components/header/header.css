@@ -82,7 +82,7 @@ nav{
     height: auto;
     float: right;
     left: 5%;
-    /* transform: translateX(30%); */
+    transform: translateX(30%);
     margin-top: 10vh;
     overflow:hidden;
     /* border-radius: 25px; */
