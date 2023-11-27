@@ -42,7 +42,7 @@ function Header() {
         <span className='span-text'> </span>
         </h3> */}
         <div>
-          <a href={Resume} className='btn'>Download Resume</a>
+          <a href={Resume} className='btn' download={Resume}>Download Resume</a>
         </div>
         </div>
         <div className='image-container'>
